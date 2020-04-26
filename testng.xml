@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Free CRM Application Test ">
+	  <test thread-count="5"  name="contact">
+		<classes>
+			<class name="com.freecrm.tastcases.ContactPageTest"></class>
+	   </classes> 
+	  </test>   
+</suite> <!-- Free CRM Application Test  -->
+
+<!-- 	<listeners>
+	<listener class-name="listeners.Listeners"></listener>
+	</listeners> -->
+	  
+	  <!--   <parameter name = "URL" value="http://freecrm.com"></parameter>
+  <parameter name = "Email" value="rajae-titrite8788@hotmail.com"></parameter>
+  <parameter name = "Password" value="bonjourfreeCRM"></parameter> -->
+ <!-- 	  <groups>
+		  <run>
+		 	 <include  name="login"></include>
+		  </run>
+	  </groups>  -->    
+ <!--     <class name="com.freecrm.tastcases.LoginPageTest">
+     <methods>
+    	 <exclude name = 'logoTest'></exclude>
+    	 <exclude name = 'loginIn'></exclude>
+     </methods> 
+     </class>-->
+     
+<!-- 	<class name="com.freecrm.tastcases.homePage">
+      <methods>
+          <include name = 'GoToContacts'></include>
+      </methods>
+     </class>-->
+     
+     
+
+  
+
+  
+
